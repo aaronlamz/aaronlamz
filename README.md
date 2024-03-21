@@ -16,4 +16,4 @@
 
 - [Email](mailto:aaronlamz2022@gmail.com)
 - [Telegram](https://t.me/discover_001)
-- [X](https://twitxter.com/aaronlamz)
+- [X](https://twitter.com/aaronlamz)
