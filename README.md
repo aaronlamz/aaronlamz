@@ -6,7 +6,7 @@
 - Frontend Developer 
 
 **Skills**
-- Frontend: HTML5, CSS3, JavaScript, Vue, React
+- Frontend: HTML5, CSS3, JavaScript, Vue, React, TypeScript
 - Backend: Node.js, Koa, MySQL, MongoDB
 
 
