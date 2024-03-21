@@ -1,5 +1,5 @@
 
-### Hello World, I am [Aaron](https://www.ultimate-kernel.fun)!
+### Hello, I am [Aaron](https://www.ultimate-kernel.fun)!
 
 **I am a...**
 
