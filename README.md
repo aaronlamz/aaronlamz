@@ -3,7 +3,7 @@
 
 **I am a...**
 
-- Frontend Developer 
+- Web Developer 
 
 <!-- **Skills**
 - Frontend: HTML5, CSS3, JavaScript, Vue, React, TypeScript
