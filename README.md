@@ -15,5 +15,5 @@
 **Where to find me**
 
 - [Email](mailto:aaronlamz2022@gmail.com)
-- [Telegram](https://t.me/discover_001)
+<!--- [Telegram](https://t.me/discover_001)  -->
 - [X](https://twitter.com/aaronlamz)
