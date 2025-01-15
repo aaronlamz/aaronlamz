@@ -1,4 +1,4 @@
-# Hi there, I'm Aaron Lamz 👋
+# Hi there, I'm Aaron 👋
 
 Welcome to my GitHub profile! I'm a passionate developer with a love for creating innovative solutions and contributing to open-source projects. 
 
