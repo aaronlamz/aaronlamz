@@ -8,7 +8,7 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for creatin
 - 🌱 I’m currently learning advanced JavaScript frameworks and cloud computing.
 - 👯 I’m looking to collaborate on open-source projects and interesting developer communities.
 - 💬 Ask me about web development, JavaScript, Python, and cloud technologies.
-- 📫 How to reach me: [Email](mailto:aaronlamz@gmail.com) | [LinkedIn](https://www.linkedin.com/in/jiajun-lin-43673b1a0)
+- 📫 How to reach me: [Email](mailto:aaronlamz2022@gmail.com) | [LinkedIn](https://www.linkedin.com/in/jiajun-lin-43673b1a0)
 - ⚡ Fun fact: I love hiking and exploring new places.
 
 ## Languages & Tools
