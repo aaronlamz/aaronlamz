@@ -22,10 +22,11 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for creatin
 ![Git](https://img.shields.io/badge/-Git-orange?style=flat&logo=git)
 ![Docker](https://img.shields.io/badge/-Docker-blue?style=flat&logo=docker)
 
+<!--
 ## GitHub Stats
 
 ![Aaron Lamz's GitHub stats](https://github-readme-stats.vercel.app/api?username=aaronlamz&show_icons=true&theme=radical)
-
+-->
 ## Top Languages
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aaronlamz&layout=compact&theme=radical)
