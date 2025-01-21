@@ -40,7 +40,8 @@ Here are some of my notable projects:
 - [Project 3](https://github.com/aaronlamz/project3): Description of project 3.
 
 Feel free to explore my repositories and reach out if you'd like to collaborate on something exciting!
--->
+
 ---
 
 Thank you for visiting my profile. Have a great day! 😊
+-->
