@@ -14,7 +14,6 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for creatin
 ## Languages & Tools
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript)
-![Python](https://img.shields.io/badge/-Python-blue?style=flat&logo=python)
 ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat&logo=html5)
 ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat&logo=css3)
 ![React](https://img.shields.io/badge/-React-blue?style=flat&logo=react)
