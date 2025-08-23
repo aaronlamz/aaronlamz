@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for creatin
 
 - 🔭 I’m currently working on various web development projects.
 - 👯 I’m looking to collaborate on open-source projects and interesting developer communities.
-- 📫 How to reach me: [Email](mailto:aaronlamz2022@gmail.com) | [LinkedIn](https://www.linkedin.com/in/jiajun-lin-43673b1a0)
+- 📫 How to reach me: [Email](mailto:aaronlamz2022@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aaron-lam-43673b1a0/)
 
 ## Languages & Tools
 
