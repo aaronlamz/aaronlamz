@@ -8,6 +8,7 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for creatin
 - 👯 I’m looking to collaborate on open-source projects and interesting developer communities.
 - 📫 How to reach me: [Email](mailto:aaronlamz2022@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aaron-lam-43673b1a0/)
 
+<!--
 ## Languages & Tools
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript)
@@ -18,7 +19,7 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for creatin
 ![Git](https://img.shields.io/badge/-Git-orange?style=flat&logo=git)
 ![Docker](https://img.shields.io/badge/-Docker-blue?style=flat&logo=docker)
 
-<!--
+
 ## GitHub Stats
 
 ![Aaron Lamz's GitHub stats](https://github-readme-stats.vercel.app/api?username=aaronlamz&show_icons=true&theme=radical)
