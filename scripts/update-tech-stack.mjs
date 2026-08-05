@@ -26,6 +26,7 @@ const BADGE_MAP = {
   "Vue.js": { logo: "vuedotjs", color: "4FC08D" },
   Nuxt: { logo: "nuxtdotjs", color: "00DC82" },
   "Node.js": { logo: "nodedotjs", color: "339933" },
+  "Spring Boot": { logo: "springboot", color: "6DB33F" },
   NestJS: { logo: "nestjs", color: "E0234E" },
   Express: { logo: "express", color: "000000" },
 
@@ -116,6 +117,16 @@ async function fetchJSON(url) {
   return res.json();
 }
 
+async function fetchText(url) {
+  const headers = {};
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+  const res = await fetch(url, { headers });
+  if (!res.ok) throw new Error(`${url}: ${res.status}`);
+  return res.text();
+}
+
 async function detectTechStack() {
   const techs = new Set();
 
@@ -150,7 +161,26 @@ async function detectTechStack() {
     }
   }
 
-  // 3. Check for Dockerfile / docker-compose
+  // 3. Check Java build files for Spring Boot dependencies/plugins
+  const javaBuildFiles = ["pom.xml", "build.gradle", "build.gradle.kts"];
+  for (const repo of repos) {
+    if (repo.fork) continue;
+    for (const buildFile of javaBuildFiles) {
+      try {
+        const contents = await fetchText(
+          `https://raw.githubusercontent.com/${USERNAME}/${repo.name}/${repo.default_branch}/${buildFile}`
+        );
+        if (/org\.springframework\.boot|spring-boot-starter/i.test(contents)) {
+          techs.add("Spring Boot");
+          break;
+        }
+      } catch {
+        // Build file does not exist at the repository root, skip
+      }
+    }
+  }
+
+  // 4. Check for Dockerfile and GitHub Actions
   for (const repo of repos) {
     if (repo.fork) continue;
     try {
@@ -187,7 +217,7 @@ const CATEGORY_ORDER = [
   // Languages first
   "TypeScript", "JavaScript", "HTML", "CSS", "Python", "Go", "Rust", "Swift", "Kotlin", "Java", "Shell",
   // Frameworks
-  "React", "Next.js", "Vue.js", "Nuxt", "Node.js", "NestJS", "Express",
+  "React", "Next.js", "Vue.js", "Nuxt", "Node.js", "Spring Boot", "NestJS", "Express",
   // Build tools
   "Vite", "Rspack", "Webpack", "Rollup", "esbuild",
   // Styling
@@ -223,6 +253,11 @@ async function main() {
     new RegExp(`${startTag}[\\s\\S]*?${endTag}`),
     `${startTag}\n${badges}\n${endTag}`
   );
+
+  if (updated === readme) {
+    console.log("README.md is already up to date.");
+    return;
+  }
 
   writeFileSync(README_PATH, updated);
   console.log("README.md updated!");
