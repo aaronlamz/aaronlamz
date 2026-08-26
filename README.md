@@ -1,6 +1,6 @@
 ### Hi, I'm Aaron
 
-Full Stack Developer. Open-source enthusiast.
+Full Stack Developer. 
 
 <!-- TECH-STACK-START -->
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
